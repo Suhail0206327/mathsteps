@@ -25,3 +25,8 @@ function solveQuadratic(a, b, c) {
 
 2. Now we are creating new variable  discriminant. The will calculate the value of (b * b) - (4 * a * c). 
 
+The number of roots (the solutions) depends on the discriminant that I mentioned here. if value is negative it won't be having any real roots (maybe in the complex plane). if the value is zero then there is only one root and if it is positive then there will be two roots (coming from the +/- in the quadratic formula).
+
+3. Using an if statement to check the above statements. 
+
+Here if the discriminant is less than zero  it is returning a message showing that, if zero its returining the value of the single root. Other wise in the else statement its calculating the two roots using he sqrt method from the math class. Square root is basically the exponential power 1/2. 
