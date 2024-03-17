@@ -6,7 +6,7 @@ So for solving the quadratic equation there are lot of ways that we can do it li
 Quadratic Formula: x = [ -b (+-) sqrt(b^2 - 4ac) ] / 2a or like splitting the middle term. so I think with proper detailed algorithm we can add this cool feature. I will demonstarte a simple method using javascript two solve the quadratic equation.
 
 function solveQuadratic(a, b, c) {
-    let discriminant = b * b - 4 * a * c;
+    let discriminant = (b * b) - (4 * a * c);
 
     if (discriminant < 0) {
         return "No real roots";
@@ -18,4 +18,10 @@ function solveQuadratic(a, b, c) {
         return [root1, root2];
     }
 }
+
+### I will break down the above function to simple steps:
+
+1. First are creating a function which can take three parameters a, b, c. In a basic quadratic equation ax + bx^2 + c. a is the coefficient of x, b is the coefficient of x^2 and c is the constant. 
+
+2. Now we are creating new variable  discriminant. The will calculate the value of (b * b) - (4 * a * c). 
 
