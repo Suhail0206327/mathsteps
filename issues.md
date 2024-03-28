@@ -7,7 +7,6 @@ Quadratic Formula: x = [ -b (+-) sqrt(b^2 - 4ac) ] / 2a or like splitting the mi
 
 function solveQuadratic(a, b, c) {
     let discriminant = (b * b) - (4 * a * c);
-
     if (discriminant < 0) {
         return "No real roots";
     } else if (discriminant === 0) {
